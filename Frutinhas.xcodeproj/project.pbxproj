@@ -53,6 +53,7 @@
 		0DC35D2D28F82EBC00E78C13 /* FrutinhasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutinhasUITests.swift; sourceTree = "<group>"; };
 		0DC35D2F28F82EBC00E78C13 /* FrutinhasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutinhasUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0DC35D3C28F831F800E78C13 /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
+		0DC35D3F28F85D0000E78C13 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		0DC35CFD28F82EBA00E78C13 = {
 			isa = PBXGroup;
 			children = (
+				0DC35D3F28F85D0000E78C13 /* .gitignore.md */,
 				0DC35D0828F82EBA00E78C13 /* Frutinhas */,
 				0DC35D2228F82EBC00E78C13 /* FrutinhasTests */,
 				0DC35D2C28F82EBC00E78C13 /* FrutinhasUITests */,
