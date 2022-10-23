@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC35D5028F9EA5300E78C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D4F28F9EA5300E78C13 /* AppDelegate.swift */; };
+		0DC35D5228F9EA5300E78C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D5128F9EA5300E78C13 /* SceneDelegate.swift */; };
+		0DC35D5428F9EA5300E78C13 /* FruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D5328F9EA5300E78C13 /* FruitViewController.swift */; };
+		0DC35D5A28F9EA5300E78C13 /* Pomo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D5828F9EA5300E78C13 /* Pomo.xcdatamodeld */; };
+		0DC35D5C28F9EA5400E78C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC35D5B28F9EA5400E78C13 /* Assets.xcassets */; };
+		0DC35D5F28F9EA5400E78C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC35D5D28F9EA5400E78C13 /* LaunchScreen.storyboard */; };
+		0DC35D6A28F9EA5500E78C13 /* PomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D6928F9EA5500E78C13 /* PomoTests.swift */; };
+		0DC35D7428F9EA5500E78C13 /* PomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D7328F9EA5500E78C13 /* PomoUITests.swift */; };
+		0DC35D7628F9EA5500E78C13 /* PomoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D7528F9EA5500E78C13 /* PomoUITestsLaunchTests.swift */; };
+		0DC35D8E28FC872A00E78C13 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D8D28FC872A00E78C13 /* Constants.swift */; };
+		0DC35D9028FCB1B400E78C13 /* FruitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D8F28FCB1B400E78C13 /* FruitService.swift */; };
+		0DC35D9228FCB27B00E78C13 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D9128FCB27B00E78C13 /* FruitModel.swift */; };
+		0DC35D9828FD8EE400E78C13 /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D9728FD8EE400E78C13 /* FruitView.swift */; };
+		0DC35D9A28FD94E800E78C13 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D9928FD94E800E78C13 /* FruitTableViewCell.swift */; };
+		0DC35D9C2900202A00E78C13 /* PostFruitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35D9B2900202A00E78C13 /* PostFruitService.swift */; };
+		0DC35DA12900CFD800E78C13 /* FruitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35DA02900CFD800E78C13 /* FruitController.swift */; };
+		0DC35DA72904831700E78C13 /* FruitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35DA62904831700E78C13 /* FruitDetailsViewController.swift */; };
+		0DC35DAB2904843900E78C13 /* FruitDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35DAA2904843900E78C13 /* FruitDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DC35D6628F9EA5500E78C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC35D4428F9EA5300E78C13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC35D4B28F9EA5300E78C13;
+			remoteInfo = Pomo;
+		};
+		0DC35D7028F9EA5500E78C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC35D4428F9EA5300E78C13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC35D4B28F9EA5300E78C13;
+			remoteInfo = Pomo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC35D4C28F9EA5300E78C13 /* Pomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC35D4F28F9EA5300E78C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DC35D5128F9EA5300E78C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DC35D5328F9EA5300E78C13 /* FruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewController.swift; sourceTree = "<group>"; };
+		0DC35D5928F9EA5300E78C13 /* Pomo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pomo.xcdatamodel; sourceTree = "<group>"; };
+		0DC35D5B28F9EA5400E78C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC35D5E28F9EA5400E78C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC35D6028F9EA5400E78C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC35D6528F9EA5500E78C13 /* PomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC35D6928F9EA5500E78C13 /* PomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoTests.swift; sourceTree = "<group>"; };
+		0DC35D6F28F9EA5500E78C13 /* PomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC35D7328F9EA5500E78C13 /* PomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoUITests.swift; sourceTree = "<group>"; };
+		0DC35D7528F9EA5500E78C13 /* PomoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DC35D8D28FC872A00E78C13 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0DC35D8F28FCB1B400E78C13 /* FruitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitService.swift; sourceTree = "<group>"; };
+		0DC35D9128FCB27B00E78C13 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		0DC35D9728FD8EE400E78C13 /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
+		0DC35D9928FD94E800E78C13 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
+		0DC35D9B2900202A00E78C13 /* PostFruitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFruitService.swift; sourceTree = "<group>"; };
+		0DC35DA02900CFD800E78C13 /* FruitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitController.swift; sourceTree = "<group>"; };
+		0DC35DA62904831700E78C13 /* FruitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewController.swift; sourceTree = "<group>"; };
+		0DC35DAA2904843900E78C13 /* FruitDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC35D4928F9EA5300E78C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC35D6228F9EA5500E78C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC35D6C28F9EA5500E78C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC35D4328F9EA5300E78C13 = {
+			isa = PBXGroup;
+			children = (
+				0DC35D4E28F9EA5300E78C13 /* Pomo */,
+				0DC35D6828F9EA5500E78C13 /* PomoTests */,
+				0DC35D7228F9EA5500E78C13 /* PomoUITests */,
+				0DC35D4D28F9EA5300E78C13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC35D4D28F9EA5300E78C13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D4C28F9EA5300E78C13 /* Pomo.app */,
+				0DC35D6528F9EA5500E78C13 /* PomoTests.xctest */,
+				0DC35D6F28F9EA5500E78C13 /* PomoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC35D4E28F9EA5300E78C13 /* Pomo */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D8728FC809A00E78C13 /* Source */,
+				0DC35D8B28FC833100E78C13 /* Resource */,
+				0DC35D8C28FC834E00E78C13 /* Aplication */,
+				0DC35D5828F9EA5300E78C13 /* Pomo.xcdatamodeld */,
+				0DC35D6028F9EA5400E78C13 /* Info.plist */,
+			);
+			path = Pomo;
+			sourceTree = "<group>";
+		};
+		0DC35D6828F9EA5500E78C13 /* PomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D6928F9EA5500E78C13 /* PomoTests.swift */,
+			);
+			path = PomoTests;
+			sourceTree = "<group>";
+		};
+		0DC35D7228F9EA5500E78C13 /* PomoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D7328F9EA5500E78C13 /* PomoUITests.swift */,
+				0DC35D7528F9EA5500E78C13 /* PomoUITestsLaunchTests.swift */,
+			);
+			path = PomoUITests;
+			sourceTree = "<group>";
+		};
+		0DC35D8628F9EE1400E78C13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D9128FCB27B00E78C13 /* FruitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DC35D8728FC809A00E78C13 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D9D2900CE8A00E78C13 /* Controller */,
+				0DC35D8628F9EE1400E78C13 /* Model */,
+				0DC35D8828FC812100E78C13 /* Services */,
+				0DC35D8928FC81C800E78C13 /* ViewController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0DC35D8828FC812100E78C13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D8F28FCB1B400E78C13 /* FruitService.swift */,
+				0DC35D8D28FC872A00E78C13 /* Constants.swift */,
+				0DC35D9B2900202A00E78C13 /* PostFruitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0DC35D8928FC81C800E78C13 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35DA8290483D000E78C13 /* FruitList */,
+				0DC35DA9290483F300E78C13 /* FruitDetails */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0DC35D8B28FC833100E78C13 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D5B28F9EA5400E78C13 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0DC35D8C28FC834E00E78C13 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D4F28F9EA5300E78C13 /* AppDelegate.swift */,
+				0DC35D5128F9EA5300E78C13 /* SceneDelegate.swift */,
+				0DC35D5D28F9EA5400E78C13 /* LaunchScreen.storyboard */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		0DC35D9D2900CE8A00E78C13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35DA02900CFD800E78C13 /* FruitController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0DC35DA8290483D000E78C13 /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35D9728FD8EE400E78C13 /* FruitView.swift */,
+				0DC35D5328F9EA5300E78C13 /* FruitViewController.swift */,
+				0DC35D9928FD94E800E78C13 /* FruitTableViewCell.swift */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
+		0DC35DA9290483F300E78C13 /* FruitDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0DC35DAA2904843900E78C13 /* FruitDetailsView.swift */,
+				0DC35DA62904831700E78C13 /* FruitDetailsViewController.swift */,
+			);
+			path = FruitDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC35D4B28F9EA5300E78C13 /* Pomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC35D7928F9EA5500E78C13 /* Build configuration list for PBXNativeTarget "Pomo" */;
+			buildPhases = (
+				0DC35D4828F9EA5300E78C13 /* Sources */,
+				0DC35D4928F9EA5300E78C13 /* Frameworks */,
+				0DC35D4A28F9EA5300E78C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomo;
+			productName = Pomo;
+			productReference = 0DC35D4C28F9EA5300E78C13 /* Pomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DC35D6428F9EA5500E78C13 /* PomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC35D7C28F9EA5500E78C13 /* Build configuration list for PBXNativeTarget "PomoTests" */;
+			buildPhases = (
+				0DC35D6128F9EA5500E78C13 /* Sources */,
+				0DC35D6228F9EA5500E78C13 /* Frameworks */,
+				0DC35D6328F9EA5500E78C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC35D6728F9EA5500E78C13 /* PBXTargetDependency */,
+			);
+			name = PomoTests;
+			productName = PomoTests;
+			productReference = 0DC35D6528F9EA5500E78C13 /* PomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DC35D6E28F9EA5500E78C13 /* PomoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC35D7F28F9EA5500E78C13 /* Build configuration list for PBXNativeTarget "PomoUITests" */;
+			buildPhases = (
+				0DC35D6B28F9EA5500E78C13 /* Sources */,
+				0DC35D6C28F9EA5500E78C13 /* Frameworks */,
+				0DC35D6D28F9EA5500E78C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC35D7128F9EA5500E78C13 /* PBXTargetDependency */,
+			);
+			name = PomoUITests;
+			productName = PomoUITests;
+			productReference = 0DC35D6F28F9EA5500E78C13 /* PomoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC35D4428F9EA5300E78C13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0DC35D4B28F9EA5300E78C13 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					0DC35D6428F9EA5500E78C13 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 0DC35D4B28F9EA5300E78C13;
+					};
+					0DC35D6E28F9EA5500E78C13 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 0DC35D4B28F9EA5300E78C13;
+					};
+				};
+			};
+			buildConfigurationList = 0DC35D4728F9EA5300E78C13 /* Build configuration list for PBXProject "Pomo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DC35D4328F9EA5300E78C13;
+			productRefGroup = 0DC35D4D28F9EA5300E78C13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC35D4B28F9EA5300E78C13 /* Pomo */,
+				0DC35D6428F9EA5500E78C13 /* PomoTests */,
+				0DC35D6E28F9EA5500E78C13 /* PomoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC35D4A28F9EA5300E78C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC35D5F28F9EA5400E78C13 /* LaunchScreen.storyboard in Resources */,
+				0DC35D5C28F9EA5400E78C13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC35D6328F9EA5500E78C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC35D6D28F9EA5500E78C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC35D4828F9EA5300E78C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC35D9028FCB1B400E78C13 /* FruitService.swift in Sources */,
+				0DC35D5A28F9EA5300E78C13 /* Pomo.xcdatamodeld in Sources */,
+				0DC35D5428F9EA5300E78C13 /* FruitViewController.swift in Sources */,
+				0DC35D9828FD8EE400E78C13 /* FruitView.swift in Sources */,
+				0DC35DA72904831700E78C13 /* FruitDetailsViewController.swift in Sources */,
+				0DC35D5028F9EA5300E78C13 /* AppDelegate.swift in Sources */,
+				0DC35DAB2904843900E78C13 /* FruitDetailsView.swift in Sources */,
+				0DC35D5228F9EA5300E78C13 /* SceneDelegate.swift in Sources */,
+				0DC35D9A28FD94E800E78C13 /* FruitTableViewCell.swift in Sources */,
+				0DC35D9228FCB27B00E78C13 /* FruitModel.swift in Sources */,
+				0DC35D8E28FC872A00E78C13 /* Constants.swift in Sources */,
+				0DC35DA12900CFD800E78C13 /* FruitController.swift in Sources */,
+				0DC35D9C2900202A00E78C13 /* PostFruitService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC35D6128F9EA5500E78C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC35D6A28F9EA5500E78C13 /* PomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC35D6B28F9EA5500E78C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC35D7428F9EA5500E78C13 /* PomoUITests.swift in Sources */,
+				0DC35D7628F9EA5500E78C13 /* PomoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DC35D6728F9EA5500E78C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC35D4B28F9EA5300E78C13 /* Pomo */;
+			targetProxy = 0DC35D6628F9EA5500E78C13 /* PBXContainerItemProxy */;
+		};
+		0DC35D7128F9EA5500E78C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC35D4B28F9EA5300E78C13 /* Pomo */;
+			targetProxy = 0DC35D7028F9EA5500E78C13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DC35D5D28F9EA5400E78C13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC35D5E28F9EA5400E78C13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC35D7728F9EA5500E78C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DC35D7828F9EA5500E78C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC35D7A28F9EA5500E78C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXKC9DK2A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pomo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariliadev.Pomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DC35D7B28F9EA5500E78C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXKC9DK2A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pomo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariliadev.Pomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DC35D7D28F9EA5500E78C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXKC9DK2A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariliadev.PomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pomo";
+			};
+			name = Debug;
+		};
+		0DC35D7E28F9EA5500E78C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXKC9DK2A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariliadev.PomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pomo";
+			};
+			name = Release;
+		};
+		0DC35D8028F9EA5500E78C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXKC9DK2A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariliadev.PomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pomo;
+			};
+			name = Debug;
+		};
+		0DC35D8128F9EA5500E78C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QXKC9DK2A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariliadev.PomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pomo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC35D4728F9EA5300E78C13 /* Build configuration list for PBXProject "Pomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC35D7728F9EA5500E78C13 /* Debug */,
+				0DC35D7828F9EA5500E78C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC35D7928F9EA5500E78C13 /* Build configuration list for PBXNativeTarget "Pomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC35D7A28F9EA5500E78C13 /* Debug */,
+				0DC35D7B28F9EA5500E78C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC35D7C28F9EA5500E78C13 /* Build configuration list for PBXNativeTarget "PomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC35D7D28F9EA5500E78C13 /* Debug */,
+				0DC35D7E28F9EA5500E78C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC35D7F28F9EA5500E78C13 /* Build configuration list for PBXNativeTarget "PomoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC35D8028F9EA5500E78C13 /* Debug */,
+				0DC35D8128F9EA5500E78C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DC35D5828F9EA5300E78C13 /* Pomo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DC35D5928F9EA5300E78C13 /* Pomo.xcdatamodel */,
+			);
+			currentVersion = 0DC35D5928F9EA5300E78C13 /* Pomo.xcdatamodel */;
+			path = Pomo.xcdatamodeld;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0DC35D4428F9EA5300E78C13 /* Project object */;
+}

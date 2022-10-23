@@ -1,14 +1,14 @@
 //
-//  FrutinhasTests.swift
-//  FrutinhasTests
+//  PomoTests.swift
+//  PomoTests
 //
-//  Created by Marília de Sousa on 13/10/22.
+//  Created by Marília de Sousa on 14/10/22.
 //
 
 import XCTest
-@testable import Frutinhas
+@testable import Pomo
 
-final class FrutinhasTests: XCTestCase {
+final class PomoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

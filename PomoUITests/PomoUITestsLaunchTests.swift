@@ -1,13 +1,13 @@
 //
-//  FrutinhasUITestsLaunchTests.swift
-//  FrutinhasUITests
+//  PomoUITestsLaunchTests.swift
+//  PomoUITests
 //
-//  Created by Marília de Sousa on 13/10/22.
+//  Created by Marília de Sousa on 14/10/22.
 //
 
 import XCTest
 
-final class FrutinhasUITestsLaunchTests: XCTestCase {
+final class PomoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

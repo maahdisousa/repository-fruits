@@ -1,13 +1,13 @@
 //
-//  FrutinhasUITests.swift
-//  FrutinhasUITests
+//  PomoUITests.swift
+//  PomoUITests
 //
-//  Created by Marília de Sousa on 13/10/22.
+//  Created by Marília de Sousa on 14/10/22.
 //
 
 import XCTest
 
-final class FrutinhasUITests: XCTestCase {
+final class PomoUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
